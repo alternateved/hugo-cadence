@@ -1,5 +1,4 @@
 baseURL       = "http://example.org/"
-languageCode  = "en-us"
 title         = "Cadence"
 theme         = "hugo-cadence"
 summarylength = 25
@@ -90,16 +89,10 @@ defaultContentLanguageInSubdir = true
         secondary_button      = "Connect with Us"
         secondary_button_url  = "contact"
 
-      [languages.en.params.blog]
-        read_more             = "read more"
-
-      [languages.en.params.portfolio]
-        enable    = true
-        title     = "OUR RECENT WORKS"
-        subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-        view_project = "view project"
-        more_works = "MORE WORKS"
-        scroll_down = "scroll down"
+      [languages.en.params.statement]
+        enable = true
+        heading = "Free your voice with me"
+        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
       [languages.en.params.call_to_action]
         enable              = true
@@ -208,16 +201,10 @@ defaultContentLanguageInSubdir = true
         secondary_button      = "Connect with Us"
         secondary_button_url  = "contact"
 
-      [languages.pl.params.blog]
-        read_more             = "read more"
-
-      [languages.pl.params.portfolio]
-        enable    = true
-        title     = "OUR RECENT WORKS"
-        subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-        view_project = "view project"
-        more_works = "MORE WORKS"
-        scroll_down = "scroll down"
+      [languages.pl.params.statement]
+        enable                = true
+        heading = "Free your voice with me"
+        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
       [languages.pl.params.call_to_action]
         enable              = true
@@ -259,7 +246,7 @@ defaultContentLanguageInSubdir = true
             [[languages.pl.params.footer.sitemap.link]]
               name = "Contact"
               url  = "contact"
-              
+
           [languages.pl.params.footer.service]
             title       = "We help brands:"
             description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
