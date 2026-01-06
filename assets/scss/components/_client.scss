@@ -1,23 +1,23 @@
-.site-client{
+.site-client {
   padding: 100px 0 50px;
-  .section-title{
+  .section-title {
     margin-bottom: 100px;
   }
-  &-wrapper{
+  &-wrapper {
     display: flex;
     flex-wrap: wrap;
-    @include desktop{
+    @include desktop {
       justify-content: center;
     }
   }
-  &-item{
+  &-item {
     text-align: center;
     width: 20%;
     margin-bottom: 50px;
-    @include desktop{
+    @include desktop {
       width: 33.33%;
     }
-    @include mobile{
+    @include mobile {
       width: 50%;
     }
   }

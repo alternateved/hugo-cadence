@@ -1,19 +1,19 @@
-.site-expertise{
+.site-expertise {
   padding: 100px 0;
   background: $gray;
-  &-list{
+  &-list {
     padding: 0;
     margin: 10px 0 0 20px;
-    @include mobile{
+    @include mobile {
       text-align: center;
       margin: 0;
     }
-    li{
+    li {
       list-style: none;
       font-size: 25px;
       font-weight: 300;
       color: $text-color-dark;
-      &:not(:last-child){
+      &:not(:last-child) {
         margin-bottom: 10px;
       }
     }

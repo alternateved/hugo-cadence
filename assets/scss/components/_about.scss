@@ -1,26 +1,26 @@
-.site-about{
-  &-header{
+.site-about {
+  &-header {
     padding-top: 80px;
     background-color: $gray;
-    @include mobile{
+    @include mobile {
       padding-top: 60px;
       text-align: center;
     }
   }
-  &-wrapper{
+  &-wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  &-company{
+  &-company {
     background: $primary-color;
     width: 40%;
     padding: 70px 38px;
-    @include desktop{
+    @include desktop {
       width: 100%;
       margin-bottom: 20px;
     }
-    h1{
+    h1 {
       color: $white;
       font-weight: 400;
       font-size: 25px;
@@ -29,14 +29,14 @@
       letter-spacing: 1px;
     }
   }
-  &-description{
+  &-description {
     width: 60%;
     padding-left: 50px;
-    @include desktop{
+    @include desktop {
       width: 100%;
       padding: 0 38px;
     }
-    p{
+    p {
       font-size: 25px;
       font-weight: 300;
       margin-bottom: 0;

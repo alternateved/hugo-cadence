@@ -1,4 +1,4 @@
----
-title: "Collaboration"
-date: 2019-12-23T16:48:28+06:00
----
++++
+date = '2026-01-06T20:50:22+01:00'
+title = 'Współpraca'
++++

@@ -1,6 +1,6 @@
 baseURL       = "http://example.org/"
 languageCode  = "en-us"
-title         = "Cadence | Creative Design Agency"
+title         = "Cadence"
 theme         = "hugo-cadence"
 summarylength = 25
 
@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = true
         weight  = 1
       [[languages.en.menu.nav]]
         name    = "About me"
-        url     = "about-me"
+        url     = "about"
         weight  = 2
       [[languages.en.menu.nav]]
         name    = "Lessons"
@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = true
         weight  = 5
 
     [languages.en.params]
-      description = "Cadence Hugo theme | Design Agency Template by StaticMania"
+      description = "Hugo Cadence is a Hugo theme for creative individuals."
 
       [languages.en.params.contactForm]
         placeholder_first_name        = "First Name"
@@ -131,7 +131,7 @@ defaultContentLanguageInSubdir = true
             title   = "Sitemap"
             [[languages.en.params.footer.sitemap.link]]
               name = "About me"
-              url  = "about-me"
+              url  = "about"
             [[languages.en.params.footer.sitemap.link]]
               name = "Lessons"
               url  = "lessons"
@@ -161,7 +161,7 @@ defaultContentLanguageInSubdir = true
         weight  = 1
       [[languages.pl.menu.nav]]
         name    = "O mnie"
-        url     = "about-me"
+        url     = "about"
         weight  = 2
       [[languages.pl.menu.nav]]
         name    = "Lekcje"
@@ -177,7 +177,7 @@ defaultContentLanguageInSubdir = true
         weight  = 5
 
     [languages.pl.params]
-      description = "Cadence Hugo theme | Design Agency Template by StaticMania"
+      description = "Hugo Cadence is a Hugo theme for creative individuals."
 
       [languages.pl.params.contactForm]
         placeholder_first_name        = "First Name"
@@ -249,7 +249,7 @@ defaultContentLanguageInSubdir = true
             title   = "Sitemap"
             [[languages.pl.params.footer.sitemap.link]]
               name = "About me"
-              url  = "about-me"
+              url  = "about"
             [[languages.pl.params.footer.sitemap.link]]
               name = "Lessons"
               url  = "lessons"
