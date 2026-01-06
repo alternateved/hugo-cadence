@@ -82,12 +82,10 @@ defaultContentLanguageInSubdir = true
 
       [languages.en.params.banner]
         enable                = true
-        heading               = "We’re a Design Studio That Believes In the Great Ideas"
-        tagline               = "WE WORK HARD, WE PLAY HARD"
-        primary_button        = "See Our Works"
-        primary_button_url    = "portfolio"
-        secondary_button      = "Connect with Us"
-        secondary_button_url  = "contact"
+        heading               = "Heading"
+        description           = "Description"
+        primary_button        = "Contact"
+        primary_button_url    = "contact"
 
       [languages.en.params.statement]
         enable = true
@@ -194,12 +192,10 @@ defaultContentLanguageInSubdir = true
 
       [languages.pl.params.banner]
         enable                = true
-        heading               = "We’re a Design Studio That Believes In the Great Ideas"
-        tagline               = "WE WORK HARD, WE PLAY HARD"
-        primary_button        = "See Our Works"
-        primary_button_url    = "portfolio"
-        secondary_button      = "Connect with Us"
-        secondary_button_url  = "contact"
+        heading               = "Heading"
+        description           = "Description"
+        primary_button        = "Contact"
+        primary_button_url    = "contact"
 
       [languages.pl.params.statement]
         enable                = true
