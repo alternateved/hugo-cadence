@@ -16,14 +16,14 @@
 
     <div class="collapse navbar-collapse" id="sitenavbar">
       <ul class="navbar-nav ml-auto main-nav">
-        {{$menu := (.Site.Menus.nav)}} 
-        {{$len := (len $menu)}} 
-        {{ range $index, $element := $menu }} 
+        {{$menu := (.Site.Menus.nav)}}
+        {{$len := (len $menu)}}
+        {{ range $index, $element := $menu }}
           {{ if eq (add $index 1) $len }}
           <li class="nav-item">
             <a
               class="nav-link btn btn-sm btn-primary btn-sm-rounded"
-              href="{{ .URL | absURL }}"
+              href="{{ .URL | absLangURL }}"
             >
               <span class="btn-area">
                 <span data-text="{{ .Name }}">
@@ -34,12 +34,13 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}"
+            <a class="nav-link" href="{{ .URL | absLangURL }}"
               >{{ .Name }}</a
             >
           </li>
-          {{ end }} 
+          {{ end }}
         {{ end }}
+      <li class="nav-item">{{ partial "language-switcher.html" . }}</li>
       </ul>
     </div>
   </div>
