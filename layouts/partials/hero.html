@@ -3,31 +3,35 @@
   {{ "<!-- Site Hero Start -->" | safeHTML }}
   <section class="site-hero">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="site-hero-content text-center">
-            <div class="site-hero-heading">
-              <h1>{{ .heading }}</h1>
-              <p>{{ .description }}</p>
-            </div>
-            <ul class="site-hero-content-buttons">
-              <li>
-                <a href="{{ .primary_button_url | absURL }}" class="btn btn-primary btn-sm-rounded">
-                  <span class="btn-area">
-                    <span data-text="{{ .primary_button }}">
-                      {{ .primary_button }}
-                    </span>
-                  </span>
-                </a>
-              </li>
-            </ul>
+      <div class="row align-items-center flex-md-row-reverse">
+
+        <div class="col-12 col-md-8  mb-4 mb-md-0">
+          <img src="{{ .background_image | absURL }}" class="site-hero-image img-fluid">
+        </div>
+
+        <div class="col-12 col-md-4 text-center">
+          <div class="site-hero-heading">
+            <h1>{{ .heading }}</h1>
+            <p class="lead">{{ .description }}</p>
           </div>
+
+          <a href="{{ .primary_button_url | absLangURL }}"
+            class="btn btn-primary btn-sm-rounded">
+            <span class="btn-area">
+              <span data-text="{{ .primary_button }}">
+                {{ .primary_button }}
+              </span>
+            </span>
+          </a>
+
         </div>
       </div>
     </div>
+
     <a href="#statement" class="site-hero-scroll scroll-to">
       <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
     </a>
+
   </section>
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}

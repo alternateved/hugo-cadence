@@ -4,13 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
-  background-position: center center;
   background-color: $hero-background;
 
   @include desktop {
     height: auto;
-    padding: 200px 0;
+    padding: 100px 0;
   }
 
   @include mobile {
@@ -22,6 +20,7 @@
     margin-bottom: 50px;
 
     h1 {
+      font-size: 40px;
       font-weight: 300;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -32,6 +31,10 @@
     }
   }
 
+  &-image {
+    border-radius: 10px;
+  }
+
   &-content {
     &-buttons {
       margin: 0;
@@ -39,12 +42,14 @@
 
       li {
         display: inline-block;
+
         @include mobile {
           display: block;
         }
 
         &:not(:last-child) {
           margin-right: 30px;
+
           @include mobile {
             margin-right: 0;
             margin-bottom: 20px;
@@ -53,6 +58,7 @@
 
         .btn {
           font-weight: 600;
+
           @include mobile {
             width: 90%;
             margin: 0 auto;
