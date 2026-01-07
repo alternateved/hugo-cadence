@@ -21,7 +21,7 @@ Hugo Cadence is a Hugo theme for creative individuals.
 ## Features
 
 * Responsive Ready.
-* Powered by Bootstrap 4.
+* Powered by Bootstrap 5.
 * Dedicated portfolio page.
 * Blog Support.
 * Well formatted code.

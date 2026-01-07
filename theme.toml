@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/alternateved/hugo-cadence/blob/master/LICENSE"
 description = "Hugo Cadence is a Hugo theme for creative individuals."
 tags = ['portfolio', 'responsive', 'customizable', 'creative']
-features = ['bootstrap 4', 'responsive design', 'responsive','landing-page','hugo-theme', 'portfolio', 'creative']
+features = ['bootstrap 5', 'responsive design', 'responsive','landing-page','hugo-theme', 'portfolio', 'creative']
 min_version = "0.58.0"
 
 [author]
