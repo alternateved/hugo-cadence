@@ -25,6 +25,9 @@ defaultContentLanguageInSubdir = true
   fabform  = "https://fabform.io/f/USAg2Jl"
   [params.banner]
     background_image = "images/backgrounds/hero-background.jpg"
+  [params.video]
+    enable = false
+    video_url = "https://www.youtube.com/"
   [params.call_to_action]
     background_image = "images/backgrounds/cta-background.jpg"
 
