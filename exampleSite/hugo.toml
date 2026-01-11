@@ -34,6 +34,9 @@ defaultContentLanguageInSubdir = true
   [params.bio]
     bio_image = ""
 
+  [params.lessons]
+    lessons_image = ""
+
   [params.call_to_action]
     background_image = "images/backgrounds/cta-background.jpg"
 
@@ -103,9 +106,18 @@ defaultContentLanguageInSubdir = true
         content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
       [languages.en.params.bio]
-        enable  = true
-        heading = "About me"
-        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        enable             = true
+        heading            = "About me"
+        primary_button     = "Full bio"
+        primary_button_url = "about"
+        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+
+      [languages.en.params.lessons]
+        enable             = true
+        heading            = "Vocal coaching  for singers / online lessons"
+        primary_button     = "Sign me in"
+        primary_button_url = "lessons"
+        content            = "When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase?"
 
       [languages.en.params.call_to_action]
         enable               = true
@@ -218,9 +230,18 @@ defaultContentLanguageInSubdir = true
         content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
       [languages.pl.params.bio]
-        enable  = true
-        title   = "About me"
-        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        enable             = true
+        heading            = "About me"
+        primary_button     = "Full bio"
+        primary_button_url = "about"
+        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+
+      [languages.pl.params.lessons]
+        enable             = true
+        heading            = "Vocal coaching  for singers / online lessons"
+        primary_button     = "Sign me in"
+        primary_button_url = "lessons"
+        content            = "When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase?"
 
       [languages.pl.params.call_to_action]
         enable               = true
