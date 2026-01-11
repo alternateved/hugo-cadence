@@ -2,22 +2,6 @@
   color: $black;
   background: $section-background-color;
 
-  // TODO: make this a .section-title later
-  &-title {
-    margin-bottom: 40px;
-
-    h2 {
-      font-weight: 300;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 15px;
-
-      @include desktop {
-        font-size: 40px;
-      }
-    }
-  }
-
   &-image {
     border-radius: 10px;
     max-width: 60%;
