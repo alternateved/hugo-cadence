@@ -1,6 +1,11 @@
 .site-bio {
   color: $black;
-  background: $section-background-color;
+  background: $white;
+  padding: 60px 0;
+
+  @include mobile {
+    padding: 50px 0;
+  }
 
   &-image {
     border-radius: 10px;

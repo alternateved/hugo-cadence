@@ -1,7 +1,7 @@
 {{ with .Site.Params.bio }}
   {{ if .enable }}
   <section class="site-bio" id="bio">
-    <div class="container py-5">
+    <div class="container">
       <div class="row flex-md-row-reverse">
 
         <div class="col-lg-4 col-md-4 mb-4 mb-md-0 align-self-center text-center">
@@ -18,7 +18,7 @@
 
           <div class="text-center">
             <a href="{{ .primary_button_url | absLangURL }}"
-              class="btn btn-secondary btn-rounded mt-4">
+              class="btn btn-sm btn-secondary btn-rounded mt-4">
               <span class="btn-area">
                 <span data-text="{{ .primary_button }}">
                   {{ .primary_button }}
