@@ -1,4 +1,4 @@
-.site-statement {
+.site-bio {
   color: $black;
   background: $section-background-color;
 
@@ -18,12 +18,9 @@
     }
   }
 
-  &-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @include mobile {
-    padding: 50px 0;
+  &-image {
+    border-radius: 10px;
+    max-width: 60%;
+    margin: 0 auto;
   }
 }

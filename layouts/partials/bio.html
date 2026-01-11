@@ -1,0 +1,35 @@
+{{ with .Site.Params.bio }}
+  {{ if .enable }}
+  <section class="site-bio" id="bio">
+    <div class="container py-5">
+      <div class="row flex-md-row-reverse">
+
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
+          <img src="{{ .bio_image | absURL }}" class="site-bio-image img-fluid">
+        </div>
+
+        <div class="col-lg-8 col-md-6">
+          <div>
+            <div class="site-bio-title">
+              <h2>{{ .heading }}</h2>
+            </div>
+            <span>{{ .content }}</span>
+          </div>
+
+          <div class="text-center">
+          <a href="{{ .primary_button_url | absLangURL }}"
+            class="btn btn-secondary btn-sm-rounded mt-4">
+            <span class="btn-area">
+              <span data-text="{{ .primary_button }}">
+                {{ .primary_button }}
+              </span>
+            </span>
+          </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
