@@ -25,7 +25,7 @@ defaultContentLanguageInSubdir = true
   fabform  = "https://fabform.io/f/USAg2Jl"
 
   [params.banner]
-    hero_image = "images/backgrounds/hero-background.jpg"
+    hero_image = "images/hero.jpg"
 
   [params.video]
     enable    = false
